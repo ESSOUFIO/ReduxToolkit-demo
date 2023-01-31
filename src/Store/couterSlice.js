@@ -1,4 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
+import { logout } from "./authSlice";
 
 const couterSlice = createSlice({
   name: "counter",
@@ -15,6 +16,11 @@ const couterSlice = createSlice({
     toggleShow: (state) => {
       state.show = !state.show;
     },
+  },
+  extraReducers: (builder) => {
+    builder.addCase(logout, (state) => {
+      state.value = 0;
+    });
   },
 });
 
