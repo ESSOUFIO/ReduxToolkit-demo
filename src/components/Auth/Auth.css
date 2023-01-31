@@ -14,6 +14,5 @@
 }
 
 .Auth button:active {
-  background: rgb(17, 133, 122);
-  color: white;
+  background: rgb(150, 248, 238);
 }
