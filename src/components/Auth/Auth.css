@@ -1,0 +1,19 @@
+.Auth button {
+  padding: 8px 30px;
+  margin-bottom: 25px;
+  background: turquoise;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 2px 5px 5px rgba(0 0 0/10%);
+  font-weight: 700;
+}
+
+.Auth button:hover {
+  cursor: pointer;
+  background: rgb(46, 190, 176);
+}
+
+.Auth button:active {
+  background: rgb(17, 133, 122);
+  color: white;
+}
